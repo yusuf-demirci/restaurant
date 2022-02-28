@@ -1,0 +1,25 @@
+nav {
+    background-color: $primary-color;
+    color: $text-color;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+
+    .nav-brand {
+        font-size: 3rem;
+        text-shadow: 2px 2px 2px #DDD;
+    }
+
+    .nav-list-item {
+        display: inline-block;
+        margin-left: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .nav-link {
+        color: $text-color;
+        text-decoration: none;
+    }
+}
