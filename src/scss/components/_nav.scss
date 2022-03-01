@@ -10,6 +10,15 @@ nav {
     .nav-brand {
         font-size: 3rem;
         text-shadow: 2px 2px 2px #DDD;
+        
+        &-link{
+            color: $text-color;
+            text-decoration: none;
+
+            &:visited {
+                color: $text-color
+            }
+        }
     }
 
     .nav-list-item {
@@ -19,7 +28,15 @@ nav {
     }
 
     .nav-link {
-        color: $text-color;
-        text-decoration: none;
+        position: relative;
+        padding-bottom: 1.8rem;
+        bottom: 0;
+        transition-property: bottom;
+        transition-duration: 300ms;
+        @extend .nav-brand-link;
+
+        &:hover {
+            bottom: 0.3rem;
+        }
     }
 }

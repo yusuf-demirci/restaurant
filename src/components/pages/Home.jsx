@@ -1,4 +1,4 @@
-import homeImage from "../img/table.jpeg"
+import homeImage from "../../img/table.jpeg"
 
 function Home() {
     return (
