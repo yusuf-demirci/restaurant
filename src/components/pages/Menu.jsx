@@ -1,4 +1,3 @@
-
 import MenuItem from "../MenuItem"
 import foods from "../FoodList"
 

@@ -1,9 +1,7 @@
-
-
 function Footer() {
   return (
     <footer>
-        Developed by Yusuf Demirci
+      Developed by Yusuf Demirci
     </footer>
   )
 }

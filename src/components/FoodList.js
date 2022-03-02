@@ -8,7 +8,6 @@ import food7 from "../img/food7.jpeg"
 import food8 from "../img/food8.jpeg"
 import food9 from "../img/food9.jpeg"
 
-
 const foods = [
     {
         id: 1,

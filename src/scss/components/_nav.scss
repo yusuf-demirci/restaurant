@@ -25,18 +25,19 @@ nav {
         display: inline-block;
         margin-left: 1.5rem;
         font-size: 2rem;
-    }
 
-    .nav-link {
-        position: relative;
-        padding-bottom: 1.8rem;
-        bottom: 0;
-        transition-property: bottom;
-        transition-duration: 300ms;
-        @extend .nav-brand-link;
-
-        &:hover {
-            bottom: 0.3rem;
+        .nav-link {
+            position: relative;
+            bottom: 0;
+            transition-property: bottom;
+            transition-duration: 300ms;
+            @extend .nav-brand-link;
+    
+            &:hover {
+                bottom: 0.2rem;
+            }
         }
     }
+
+    
 }

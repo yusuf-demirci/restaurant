@@ -1,12 +1,12 @@
-
 import { FaMapMarkerAlt, FaClock, FaPhone, FaEnvelope } from "react-icons/fa"
 
 function Contact() {
+
     return (
         <main className="contact">
             <div className="contact-container">
                 <div className="contact-info">
-                    <h2>Contact Us</h2>
+                    <h2>Contact</h2>
                     <div className="adress-box">
                         <h3><FaMapMarkerAlt /> Adress:</h3>
                         <p>
@@ -17,7 +17,7 @@ function Contact() {
                     <div className="work-hours-box">
                         <h3><FaClock /> Work Hours:</h3>
                         <p>
-                            Mon-Thurs:8am-8pm <br/>
+                            Mon-Thurs:8am-8pm <br />
                             Fri-Sun:8am-11pm
                         </p>
                     </div>
@@ -27,15 +27,15 @@ function Contact() {
                             (+44) 444 44 44
                         </p>
                     </div>
-                    <form className="contact-form">
-                        <h3><FaEnvelope /> Message Us</h3>
-                        <input type="text" placeholder="Full Name" required /><br/>
-                        <input type="email" placeholder="Email" required /><br/>
-                        <input type="text" placeholder="Message..." required /><br/>
-                        <button type="submit">Send</button>
-                    </form>
-                </div>
 
+                </div>
+                <form className="contact-form">
+                    <h2><FaEnvelope /> Message Us</h2>
+                    <input type="text" placeholder="Full Name" /><br />
+                    <input type="email" placeholder="Email" /><br />
+                    <input type="text" placeholder="Message..." /><br />
+                    <button type="submit" onClick={(e) => e.preventDefault()} >Send</button>
+                </form>
             </div>
         </main>
     )

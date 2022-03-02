@@ -1,10 +1,8 @@
-
-
-function MenuItem({image, definition}) {
+function MenuItem({ image, definition }) {
   return (
     <div className="menu-item">
-        <img className="menu-item-image" src={image} />
-        <p className="menu-item-text">{definition}</p>
+      <img className="menu-item-image" src={image} />
+      <p className="menu-item-text">{definition}</p>
     </div>
   )
 }
