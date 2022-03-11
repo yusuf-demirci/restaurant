@@ -1,8 +1,34 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the component depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Navigate through pages via links
+- View the menu and contact
+
+### Screenshot
+
+![./screenshot.png](./src/img/screenshot.png)
+
+### Links
 
 Live Site URL: https://yusuf-demirci-restaurant-page.netlify.app/
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox & Grid
+- Mobile-first workflow
+- React.js
+- SASS/SCSS
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
